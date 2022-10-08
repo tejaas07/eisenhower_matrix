@@ -10,7 +10,6 @@ function App() {
     <div className="App">
       {/* <Home /> */}
         <Routes>
-          
           <Route exact path="/" element={<Home />} />
           <Route path="/addTask" element={<NewTask />} />
           <Route path="/taskList" element={<TaskList />} />

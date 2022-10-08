@@ -30,7 +30,7 @@ const NewTask = (props) => {
         { description, important, urgent, status: false, priority }
       )
       .then((response) => {
-        window.location = "/";
+        window.location = "/eisenhower_matrix";
       })
       .catch((err) => {});
   };

@@ -46,7 +46,13 @@ const TaskList = (props) => {
         {props.priority == "2" ? "Delegate it" : ""}
         {props.priority == "3" ? "Drop it" : ""}
       </div>
-      <Table highlightOnHover style={{ marginBottom: "20px" }}>
+      <Table
+        highlightOnHover
+        style={{ marginBottom: "20px", width: "100%" }}
+        // horizontalSpacing="xs"
+        // verticalSpacing="xs"
+        // fontSize="s"
+      >
         <thead>
           <tr>
             <th>Tasks</th>
